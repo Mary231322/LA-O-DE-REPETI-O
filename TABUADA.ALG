@@ -1,22 +1,22 @@
 Algoritmo "Tabuada"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Escreva um algoritmo que mostre a tabuada de um número até 10.
+// DescriÃ§Ã£o   : Escreva um algoritmo que mostre a tabuada de um nÃºmero atÃ© 10.
 // Autor(a)    : Marilia
 // Data atual  : 11/04/2023
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 i, num, resul:inteiro
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
   escreval ( " Digite numero:")
   leia (num)
 
 para i de 1 ate 10 passo 1 faca
 
-   escreval (i,"*",num,"=", i * num)
+   escreval (num,"*",i,"=", num * i)
    fimpara
   
   
