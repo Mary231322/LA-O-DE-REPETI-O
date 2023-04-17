@@ -1,0 +1,39 @@
+Algoritmo "Contador de pares e ímpares""
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 16/04/2023
+Var
+// Seção de Declarações das variáveis 
+
+   i, num, contPar, contImpar: inteiro
+   
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+      contPar <- 0
+      contImpar <- 0
+      
+       para i de  1 ate 5 faca
+       
+      Escreva("Digite o ", i, "o número: ")
+      Leia(num)
+
+      Se num % 2 = 0 entao
+         contPar <- contPar + 1
+      Senao
+         contImpar <- contImpar + 1
+      FimSe
+   FimPara
+
+   Escreva("Total de números pares: ", contPar)
+   leia (contPar)
+   Escreva("Total de números ímpares: ", contImpar)
+
+FimAlgoritmo
+
+
+
+
+Fimalgoritmo
